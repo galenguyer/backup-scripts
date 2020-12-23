@@ -5,7 +5,7 @@ set -eo pipefail
 
 # store date
 DATE="$(date +%Y-%m-%d)"
-DPATH="$(date +%Y/%m)/$DATE"
+DPATH="$(date +%Y/%m)"
 
 # create temporary backup directory
 LOCALDIR="$(mktemp -d)"
